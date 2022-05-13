@@ -1,6 +1,7 @@
 # ZSH configurations
 
-This configurations is a **a minimal config** for your zsh (autosuggestions, syntax highlighting etc..) no oh-my-zsh required.
+This configurations is a **minimal config** for your zsh (autosuggestions, syntax highlighting etc..) no oh-my-zsh required.
+
 I'm not the author of the original configuration. I followed a tutorial on Youtube to custom this configuration, you can follow along with this [video](https://www.youtube.com/watch?v=bTLYiNvRIVI) to.
 
 ## Try out this config
