@@ -106,3 +106,4 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 
 # z
 source $ZDOTDIR/plugins/z/z.sh
+
