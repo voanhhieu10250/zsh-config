@@ -107,3 +107,8 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 # z
 source $ZDOTDIR/plugins/z/z.sh
 
+
+# bun completions
+[ -s "/home/hieu/.bun/_bun" ] && source "/home/hieu/.bun/_bun"
+export BUN_INSTALL="/home/hieu/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
