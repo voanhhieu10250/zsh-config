@@ -112,3 +112,7 @@ source $ZDOTDIR/plugins/z/z.sh
 [ -s "/home/hieu/.bun/_bun" ] && source "/home/hieu/.bun/_bun"
 export BUN_INSTALL="/home/hieu/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
