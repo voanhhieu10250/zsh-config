@@ -1,4 +1,4 @@
-# ZSH configurations
+# ZSH configs
 
 This configurations is a **minimal config** for your zsh (autosuggestions, syntax highlighting etc..) no oh-my-zsh required.
 
