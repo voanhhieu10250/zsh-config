@@ -1,4 +1,6 @@
 #!/bin/sh
+
+# zsh config dir
 export ZDOTDIR=$HOME/.config/zsh
 HISTFILE=~/.zsh_history
 setopt appendhistory
@@ -89,8 +91,8 @@ xset r rate 210 40
 
 # Environment variables set everywhere
 export EDITOR="nvim"
-export TERMINAL="alacritty"
-export BROWSER="brave"
+export TERMINAL="gnome"
+export BROWSER="chrome"
 
 # For QT Themes
 export QT_QPA_PLATFORMTHEME=qt5ct
