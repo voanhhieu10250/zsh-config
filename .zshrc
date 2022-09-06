@@ -64,6 +64,7 @@ bindkey "^p" up-line-or-beginning-search # Up
 bindkey "^n" down-line-or-beginning-search # Down
 bindkey "^k" up-line-or-beginning-search # Up
 bindkey "^j" down-line-or-beginning-search # Down
+# bindkey '^r' fzf-history-widget
 bindkey -r "^u"
 bindkey -r "^d"
 
@@ -82,12 +83,11 @@ compinit
 autoload edit-command-line; zle -N edit-command-line
 # bindkey '^e' edit-command-line
 
-# TODO Remove these
 setxkbmap -option caps:escape
-xset r rate 210 40
 
 # Speedy keys
-# xset r rate 210 40
+xset r rate 210 40
+
 
 # Environment variables set everywhere
 export EDITOR="nvim"

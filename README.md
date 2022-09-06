@@ -12,3 +12,6 @@ Make sure to remove or move your current `zsh` directory in your `~/.config`
 ```
 git clone https://github.com/voanhhieu10250/zsh-configuration.git ~/.config/zsh
 ```
+
+Need to install:
+fzf - [install](https://github.com/junegunn/fzf#using-homebrew:~:text=the%20extra%20stuff.-,Using%20Homebrew,-You%20can%20use)
