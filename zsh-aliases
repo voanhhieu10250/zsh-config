@@ -6,7 +6,7 @@ alias zsh-update-plugins='find "$ZDOTDIR/plugins" -type d -exec test -e "{}/.git
 alias nvimrc='nvim ~/.config/nvim/'
 
 # I'm too lazy to do type these ant commands
-alias cleanjar='ant clean jar'
+alias buildjar='ant clean jar'
 alias runjar='java -jar dist/*.jar'
 
 # alias lvim='nvim -u ~/.local/share/lunarvim/lvim/init.lua --cmd "set runtimepath+=~/.local/share/lunarvim/lvim"'
