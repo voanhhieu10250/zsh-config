@@ -6,12 +6,34 @@ I'm not the author of the original configuration. I followed a tutorial on Youtu
 
 ## Try out this config
 
+**IMPORTANT** Requires [Zsh](https://www.geeksforgeeks.org/how-to-install-z-shellzsh-on-linux/). 
+
 Make sure to remove or move your current `zsh` directory in your `~/.config`
 
-**IMPORTANT** Requires [Zsh](https://www.geeksforgeeks.org/how-to-install-z-shellzsh-on-linux/). 
+If your zsh directory is not currently in `~/.config`, please put these following lines to your `.zprofile`.
+
+```
+# XDG Paths
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_CACHE_HOME=$HOME/.cache
+export XDG_DATA_HOME=$HOME/.local/share
+
+# zsh config dir
+export ZDOTDIR=$HOME/.config/zsh
+```
+
+Now clone this repo to your `~/.config` by run the command below.
+
 ```
 git clone https://github.com/voanhhieu10250/zsh-configuration.git ~/.config/zsh
 ```
 
-Need to install:
-fzf - [install](https://github.com/junegunn/fzf#using-homebrew:~:text=the%20extra%20stuff.-,Using%20Homebrew,-You%20can%20use)
+## Packages need to install:
+
+fzf (command-line fuzzy finder; `Ctrl+r` to find previous commands) - [install](https://github.com/junegunn/fzf#using-homebrew:~:text=the%20extra%20stuff.-,Using%20Homebrew,-You%20can%20use)
+
+
+## References & Credit
+
+[chris@machine](https://www.youtube.com/c/ChrisAtMachine)
+
